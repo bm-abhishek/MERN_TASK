@@ -1,19 +1,14 @@
 {
-  "name": "mern-task",
+  "name": "mern-signup-mongodb",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Full Stack MERN Sign Up application with MongoDB Atlas integration",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "cd server && npm start",
+    "server:dev": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
   },
-  "keywords": [],
+  "keywords": ["mern", "mongodb", "react", "express", "signup", "rest-api"],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.3.0"
-  }
+  "license": "ISC"
 }
